@@ -1,5 +1,15 @@
+import About from "./components/About";
+import Title from "./components/Title";
+import GlobalStyle from "./styles/GlobalStyle";
+
 function App() {
-  return <div className="App">Portfolio</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <Title />;
+      <About />
+    </>
+  );
 }
 
 export default App;
